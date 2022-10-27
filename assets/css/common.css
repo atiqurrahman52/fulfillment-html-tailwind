@@ -1,0 +1,88 @@
+/* navbar started */
+
+/* navbar ended */
+
+/* Services started  */
+
+.acc-container {
+  /* max-width: 700px; */
+  width: 100%;
+}
+
+.acc {
+  margin-bottom: 10px;
+}
+
+.acc-head {
+  background-color: rgb(155, 154, 87);
+  padding: 15px 10px;
+  font-size: 22px;
+  position: relative;
+  cursor: pointer;
+}
+
+.acc-head::before,
+.acc-head::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  background-color: #fff;
+  transition: all 0.3s;
+}
+
+.acc-head::before {
+  right: 30px;
+  width: 3px;
+  height: 20px;
+  margin-top: -10px;
+}
+
+.acc-head::after {
+  right: 21px;
+  width: 20px;
+  height: 3px;
+  margin-top: -2px;
+}
+
+.acc-head p {
+  color: #fff;
+  font-weight: bold;
+}
+
+.acc-content {
+  padding: 15px 10px;
+  display: none;
+}
+
+.acc-head.active::before {
+  transform: rotate(90deg);
+}
+
+/* Contact  */
+.contact-bg {
+  background-image: url("../images/contact/contact.png");
+  
+}
+.bg-color {
+  background: radial-gradient(50% 101.58% at 50% 50%, rgba(24, 42, 68, 0.6) 0%, #152740 100%);
+opacity: 0.9;
+}
+
+/* Contact ended */
+
+/* location  */
+.location-header {
+  -webkit-text-stroke: 1px #3b2d60;
+  color: transparent;
+}
+
+.iso-nav ul li:hover {
+  background: #2a9d8f;
+  border-radius: 5px;
+  color: white;
+}
+.iso-nav ul li.active {
+  background: #2a9d8f;
+  border-radius: 5px;
+  color: white;
+}
