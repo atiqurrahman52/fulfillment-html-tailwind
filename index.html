@@ -6,12 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Font  -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
     <link rel="stylesheet" href="./assets/plugins/slick/slick.1.8.1.css">
     <title>Fulfillment</title>
     <link rel="stylesheet" href="./assets/css/common.css" />
@@ -340,7 +339,7 @@
            <div>
             <div class="iso-nav">
               <h3 class="font-mulish font-extrabold text-[26px] md:text-[40px] leading-[34px] md:leading-[48px] text-center md:text-left text-primary mb-6 md:mb-12">Warehouse Location Over the World</h3>
-              <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-6 md:mb-12 ">
+              <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-6 md:mb-12 portfolio-menu ">
           
                 <li class="border border-[#2A9D8F] px-9 py-2 tracking-[.64px] rounded-[5px] font-poppins font-bold text-base leading-6 text-success flex justify-center items-center active" data-filter="*">USA</li>
                 <li class="border border-[#2A9D8F] px-9 py-2 tracking-[.64px] rounded-[5px] font-poppins font-bold text-base leading-6 text-success flex justify-center items-center" data-filter=".europe">EUROPE</li>
@@ -350,7 +349,7 @@
               </ul>
             </div>
              
-             <div class="main-iso">
+             <div class="main-iso portfolio-items">
               <h1 class="location-header item usa
               font-poppins font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] text-center md:text-left tracking-[.64px] uppercase mb-6 md:mb-12">United States of America</h1>
               <h1 class="location-header  item europe
@@ -364,7 +363,7 @@
            
            </div>
 
-                <div class="main-iso">
+                <div class="main-iso portfolio-items">
                 
                     <div class="item usa">
                      <div class="mb-5 md:mb-12">
@@ -437,7 +436,7 @@
        
      
      
-        <!-- <div class="main-iso "> -->
+   
         <div class="item asia">
          <div class="mb-5 md:mb-12">
            <img class="w-full h-[178px] md:h-[402px]" src="./assets/images/location/asia.png" alt="">
@@ -458,7 +457,7 @@
            </div>
           </div>
         </div>
-     <!-- </div> -->
+    
      
                 </div>
 
@@ -599,10 +598,42 @@
 
 
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"></script> -->
      <script src="https://unpkg.com/phosphor-icons"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
     <script src="./assets/js/custom/common.js"></script>
     <script src="./assets/plugins/slick/slick.1.8.1.js"></script>
+
+    <script>
+      // init Isotope
+          var $grid = $('.portfolio-items').isotope({
+              // options
+          });
+          // filter items on button click
+          $('.portfolio-menu').on('click', 'li', function () {
+              var filterValue = $(this).attr('data-filter');
+              $grid.isotope({ filter: filterValue });
+          });
+
+          // filter items on button active
+          $('.portfolio-menu').on('click', 'li', function () {
+             $(this).activeClass('active').siblings.removeClass('active');
+          });
+
+          // filter items on button active
+          // $('.portfolio-menu').on('click', 'li', function () {
+          //    $(this).activeClass('active').siblings.removeClass('active');
+          // $('')
+          // });
+
+
+          //   $('.portfolio-menu').click(function () {
+            //   $('.portfolio-menu').on('click', 'li', function () {
+            //       //ACTIVE CLASS
+            //       $('.portfolio-menu ul li').removeClass('active');
+            //       $(this).addClass('active');
+            // })
+  </script>
   </body>
 </html>

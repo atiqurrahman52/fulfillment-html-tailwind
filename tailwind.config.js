@@ -25,6 +25,7 @@ module.exports = {
         mulish: ["Mulish", "sans-serif"],
         poppins: ["Poppins", "sans-serif"],
         workSans: ["Work Sans", "sans-serif"],
+        openSans: ["Open Sans", "sans-serif"],
       },
       colors: {
         primary: "#393E50",
