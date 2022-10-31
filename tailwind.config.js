@@ -36,8 +36,8 @@ module.exports = {
         light: "#FAFCFE",
       },
       backgroundImage: {
-        experinece: "url('/assets/images/event_banner/desert2.png')",
         "contact-bg": "url('/assets/images/contact/contact.png')",
+        "about-bg": "url('/assets/images/about/about-bg.png')",
       },
     },
   },
