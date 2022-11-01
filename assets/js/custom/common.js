@@ -5,6 +5,21 @@ button.addEventListener("click", () => {
   menu.classList.toggle("hidden");
 });
 
+// Application Process FAQ Started
+let accordions = document.querySelectorAll(".accordion");
+
+accordions.forEach((acco) => {
+  accordions[0].click();
+  accordions[0].click();
+  acco.onclick = () => {
+    accordions.forEach((subAcco) => {
+      subAcco.classList.remove("active");
+    });
+    acco.classList.add("active");
+  };
+});
+// Application Process FAQ Ended
+
 $(document).ready(function () {
   // count up started
   $(".count").each(function () {
@@ -100,3 +115,5 @@ $(document).ready(function () {
 
   // location ended
 });
+
+
