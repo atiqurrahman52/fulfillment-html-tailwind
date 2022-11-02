@@ -1,6 +1,25 @@
 /* navbar started */
 
 /* navbar ended */
+/* Active page started  */
+.activePage {
+  position: relative;
+}
+
+.activePage::after {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  /* color: #3B2D60; */
+  color: red;
+
+  transform: translateX(-50%);
+  border-bottom: 2px solid #e78dd2;
+  width: 48px;
+}
+
+/* Active page started  */
 
 /* Services started  */
 
@@ -13,24 +32,61 @@
   margin-bottom: 10px;
 }
 
+/* .acc-head {
+  background-color: rgb(155, 154, 87);
+  padding: 15px 10px;
+  font-size: 22px;
+  position: relative;
+  cursor: pointer;
+} */
 .acc-head {
   background-color: rgb(155, 154, 87);
   padding: 15px 10px;
   font-size: 22px;
   position: relative;
   cursor: pointer;
+  height: 100%;
+  white-space: pre-wrap;
+}
+.acc-head .icon {
+  position: absolute;
+  top: -8%;
+  right: 5%;
+  background: #06a9e7;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.acc-head .icon .ph-plus {
+  display: block;
+}
+.acc-head.active .icon .ph-minus {
+  display: block;
+}
+.acc-head.active .icon .ph-plus {
+  display: none;
+}
+.acc-head .icon .ph-minus {
+  display: none;
 }
 
-.acc-head::before,
+.acc-head.active {
+  white-space: inherit;
+}
+
+/* .acc-head::before,
 .acc-head::after {
   content: "";
   position: absolute;
   top: 50%;
   background-color: #fff;
   transition: all 0.3s;
-}
+} */
 
-.acc-head::before {
+/* .acc-head::before {
   right: 30px;
   width: 3px;
   height: 20px;
@@ -42,7 +98,7 @@
   width: 20px;
   height: 3px;
   margin-top: -2px;
-}
+} */
 
 .acc-head p {
   color: #fff;
