@@ -178,12 +178,15 @@ line-height: 27px; */
 /* About Count ended  */
 
 /* Application Process FAQ Started  */
+.accordion-container .accordion.active .accordion-heading {
+  margin-bottom: 10px;
+}
 .accordion-container .accordion {
-  margin-bottom: 24px;
-  cursor: pointer;
-  border: 2px solid gray;
-  background: #FFFFFF;
-   border-radius: 10px;
+  /* margin-bottom: 24px; */
+  /* cursor: pointer; */
+  /* border: 1px solid gray; */
+  /* background: #FFFFFF; */
+  /* border-radius: 10px; */
 
   /* border-radius: 45%; */
 }
@@ -198,7 +201,8 @@ line-height: 27px; */
   /* display: block; */
 }
 .accordion-container .accordion.active .accordion-heading i {
-  color: green;
+  /* color: green; */
+  /* color: #2A9D8F; */
   transform: rotate(180deg);
   transition: transform 0.2s 0.1s;
 }
@@ -211,64 +215,46 @@ line-height: 27px; */
   align-items: center;
   justify-content: space-between;
   /* gap: 10px; */
-  background: white;
+  /* background: white; */
   /* padding: 10px 20px; */
   /* border-radius: 15px; */
- 
+
   /* box-shadow: 0px 0px 20px rgba(213, 29, 76, 0.05);
   border-radius: 10px; */
   /* border: 2px solid gray; */
-  padding: 20px;
-  gap: 40px;
+  /* padding: 20px; */
+  /* gap: 40px; */
 
-  width: 869px;
-   height: 109px;
+  /* width: 869px; */
+  width: 100%;
+  /* height: 109px; */
+  height: 100%;
 
-
-  border-radius: 10px;
-  
-
+  /* border-radius: 10px; */
 }
 
 .accordion-container .accordion .accordion-heading h3 {
-  /* font-size: 20px; */
-  color: #324764;
-  /* color: rgba(208, 3, 56, 0.9); */
-  /* font-family: "Nunito"; */
+  /* color: #304562; */
+  /* font-family: 'Poppins'; */
   /* font-style: normal; */
-  /* font-weight: 500;
-  line-height: 30px; */
-
-  font-family: 'Poppins';
-  font-style: normal;
-  font-weight: 500;
-  font-size: 18px;
-  line-height: 27px;
+  /* font-weight: 500; */
+  /* font-size: 18px; */
+  /* line-height: 27px; */
 }
 .accordion-container .accordion .accordion-heading i {
-  font-size: 25px;
-  color: gray;
-  font-family: "Nunito";
-  font-style: normal;
-  font-weight: 500;
-  line-height: 30px;
-  
+  /* font-size: 25px; */
+  /* color: #2A9D8F; */
 }
 .accordion-container .accordion .accordion-content {
-  padding: 10px 10px;
-  /* border-top: 0; */
+  /* padding: 20px 20px; */
   display: none;
   animation: animate 0.2s linear backwards;
   transform-origin: top;
-  /* background: #ffffff; */
-  /* background: red; */
-  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.05);
-  border-radius: 0px 0px 10px 10px;
-  
-  font-family: 'Poppins';
-  font-weight: 400;
+  font-family: "Poppins";
   font-size: 16px;
-  color: #808C9D;
+  color: #808c9d;
+  font-weight: 400;
+  line-height: 140%;
 }
 @keyframes animate {
   0% {
