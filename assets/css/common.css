@@ -1,5 +1,13 @@
 /* navbar started */
+.tab-content {
+  display: none;
+  /* background: #ededed; */
+  padding: 15px;
+}
 
+.tab-content.current {
+  display: inherit;
+}
 /* navbar ended */
 /* Active page started  */
 .activePage {
@@ -334,3 +342,124 @@ line-height: 27px; */
   }
 }
 /* Application Process FAQ Ended  */
+
+/* Service section started  */
+
+/* service_intro started from here  */
+
+.acivement_number h4 {
+  color: #ee333a;
+  font-size: 36px;
+  font-weight: 600;
+}
+.acivement_number p {
+  font-size: 14px;
+  color: #d7dbe1;
+  font-weight: bold;
+}
+@media screen and (min-width: 1208px) {
+  .info_boxes {
+    width: 20%;
+  }
+}
+
+.service_intro ul li {
+  list-style: none;
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 14px;
+  display: flex;
+}
+.service_intro ul span {
+  margin-right: 15px;
+}
+
+.service_intro ul:nth-of-type(1) {
+  margin-left: -18px !important;
+}
+
+/* service_intro started from here ended  */
+
+/* Services section has started  */
+
+/* Services section has ended  */
+
+.shrink {
+  padding-top: 35px !important;
+}
+
+/* service section endedn  */
+
+#services {
+  margin-top: 203px;
+  margin-bottom: 150px;
+}
+
+.service_heading {
+  width: 310px;
+  height: 362px;
+  background: linear-gradient(90deg, #7d0000 0%, #c21313 100%);
+  border-radius: 20px;
+  position: relative;
+  margin-bottom: 50px;
+  top: -65px;
+  left: -98px;
+}
+
+.service_heading h2 {
+  color: #ffffff;
+  text-align: right;
+  position: absolute;
+  right: 48px;
+  font-weight: 600;
+  padding-bottom: 30px;
+  font-size: 36px;
+  text-transform: uppercase;
+}
+
+.rectengale {
+  position: relative;
+  max-width: 280px;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  min-height: 152px;
+  margin-bottom: 26px;
+}
+
+.rectengale h5 {
+  font-size: 24px;
+  color: #223551;
+  font-weight: bold;
+  padding: 0px 27px;
+  transition: 1s;
+  max-width: 226px;
+  width: 100%;
+}
+.rectengale p {
+  padding: 0px 27px;
+  padding-bottom: 18px;
+  padding-top: 18px;
+  font-size: 14px;
+  line-height: 21px;
+}
+.rectengale .expand_btn {
+  position: absolute;
+  right: 15px;
+  top: -22px;
+}
+
+.horizontal_mode {
+  max-width: unset;
+  width: 200%;
+  transition: 1.5s;
+  padding-top: 20px;
+}
+.horizontal_mode p {
+  padding-top: 5px;
+}
+.horizontal_mode h5 {
+  display: inline;
+  padding-top: 15px;
+}

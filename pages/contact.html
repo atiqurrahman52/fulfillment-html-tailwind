@@ -37,21 +37,14 @@
             <!-- <div>
                     <img src="./assets/images/mobile menu/hamburger menu.svg" />
                 </div> -->
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              id="menu-button"
-              class="h-6 w-6 cursor-pointer md:hidden block"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M4 6h16M4 12h16M4 18h16"
-              />
-            </svg>
+                <svg 
+                class="h-6 w-6 cursor-pointer md:hidden block"
+                id="menu-button"
+                width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <rect x="2" y="5.85718" width="10.0859" height="2.8817" rx="1.44085" fill="#1F425D"/>
+                  <rect x="2" y="11.6206" width="20.1719" height="2.8817" rx="1.44085" fill="#1F425D"/>
+                  <rect x="2" y="17.384" width="12.9676" height="2.8817" rx="1.44085" fill="#1F425D"/>
+                  </svg>
 
             <div
               class="hidden w-full md:flex md:items-center md:w-auto"
@@ -371,7 +364,7 @@
           </div>
 
           <div
-            class="max-w-screen-md mx-2 md:mx-auto bg-[rgba(255,255,255,0.2)] rounded-[20px] py-5 px-10 shadow-[0px_20px_26px_rgba(0,0,0,0.05),0px_8px_9px_rgba(0,0,0,0.06)] backdrop-blur-lg"
+            class="max-w-screen-md mt-16 mx-2 md:mx-auto bg-[rgba(255,255,255,0.2)] rounded-[20px] py-5 px-10 shadow-[0px_20px_26px_rgba(0,0,0,0.05),0px_8px_9px_rgba(0,0,0,0.06)] backdrop-blur-lg"
           >
             <div
               class="text-center space-y-10 md:space-y-2 mb-[38px] md:mb-[28px]"
@@ -408,13 +401,13 @@
                     class="block font-openSans font-bold text-white text-xs leading-[1px] mb-4"
                     for=""
                   >
-                    Full Name
+                    Email
                   </label>
                   <input
                     class="appearance-none block w-full bg-[#B8B3B3] text-black text-opacity-5 rounded-lg py-3 px-4 mb-3 h-10 focus:outline-none focus:bg-white"
                     id="grid-first-name"
                     type="text"
-                    placeholder="Full Name"
+                    placeholder="hello@creative-tim.com"
                   />
                 </div>
               </div>
@@ -435,7 +428,7 @@
                 </div>
                 <div class="flex justify-center w-full px-3">
                   <button
-                    class="contact-btn focus:shadow-outline focus:outline-none text-white font-bold text-xs leading-[12px] uppercase py-3 px-6"
+                    class="contact-btn focus:shadow-outline focus:outline-none shadow-[0px_4px_7px_-1px_rgba(0,0,0,0.11),0px_2px_4px_-1px_rgba(0,0,0,0.07)] text-white font-bold text-xs leading-[12px] uppercase py-3 px-6"
                     type="submit"
                   >
                     Send Message

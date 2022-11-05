@@ -31,9 +31,9 @@
               </a>
             </div>
             <!-- <div>
-                    <img src="./assets/images/mobile menu/hamburger menu.svg" />
+                    <img  class="h-6 w-6 cursor-pointer md:hidden block" src="./assets/images/mobile menu/hamburger menu.svg" />
                 </div> -->
-            <svg
+            <!-- <svg
               xmlns="http://www.w3.org/2000/svg"
               id="menu-button"
               class="h-6 w-6 cursor-pointer md:hidden block"
@@ -47,7 +47,22 @@
                 stroke-width="2"
                 d="M4 6h16M4 12h16M4 18h16"
               />
-            </svg>
+            </svg> -->
+
+
+            <svg 
+            class="h-6 w-6 cursor-pointer md:hidden block"
+            id="menu-button"
+            width="24" height="25" viewBox="0 0 24 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="5.85718" width="10.0859" height="2.8817" rx="1.44085" fill="#1F425D"/>
+              <rect x="2" y="11.6206" width="20.1719" height="2.8817" rx="1.44085" fill="#1F425D"/>
+              <rect x="2" y="17.384" width="12.9676" height="2.8817" rx="1.44085" fill="#1F425D"/>
+              </svg>
+              
+
+
+
+
 
             <div
               class="hidden w-full md:flex md:items-center md:w-auto"
@@ -192,19 +207,16 @@
         <div class="container border-2 border-red-500 ">
           <div class="py-10 md:py-16">
 
-            <div class="grid grid-cols-12 grid-rows-2 gap-6">
+            <!-- <div class="grid grid-cols-12 grid-rows-2 gap-6">
 
-              <div class="col-span-1 md:col-span-3 relative row-span-2 ">
-                  <!-- <img class="rounded-lg sm:h-[623px]" src="./assets/images/home/service.png" alt="">
-                <div class="absolute lg:top-[83%] lg:left-[7%]">
-                  <h3 class=" font-poppins font-semibold text-base md:text-4xl text-white  uppercase">our <br> serviceS</h3>
-                </div> -->
-                <img src="./assets/images/home/Our Service Title.png" alt="">
+              <div class="col-span-12 md:col-span-3 relative row-span-2 ">
+                
+                <img class="w-full" src="./assets/images/home/Our Service Title.png" alt="">
 
               </div>
 
              
-              <div class="col-span-1 md:col-span-3 row-span-1">
+              <div class="col-span-12 md:col-span-3 row-span-1">
                 <div class="acc">
                   <div class="acc-head">
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -219,7 +231,7 @@
                   </div>
               </div>
 
-              <div class="col-span-1 md:col-span-3 row-span-1">
+              <div class="col-span-12 md:col-span-3 row-span-1">
                 <div class="acc">
                   <div class="acc-head">
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -234,7 +246,7 @@
                   </div>
               </div>
 
-              <div class="col-span-1 md:col-span-3 row-span-1">
+              <div class="col-span-12 md:col-span-3 row-span-1">
                 <div class="acc">
                   <div class="acc-head">
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -249,7 +261,7 @@
                   </div>
               </div>
 
-              <div class="col-span-1 md:col-span-3 row-span-1">
+              <div class="col-span-12 md:col-span-3 row-span-1">
                 <div class="acc">
                   <div class="acc-head">
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -264,7 +276,7 @@
                   </div>
               </div>
 
-              <div class="col-span-1 md:col-span-3 row-span-1">
+              <div class="col-span-12 md:col-span-3 row-span-1">
                 <div class="acc">
                   <div class="acc-head">
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -278,7 +290,7 @@
                   </div>
                   </div>
               </div>
-              <div class="col-span-1 md:col-span-3 row-span-1">
+              <div class="col-span-12 md:col-span-3 row-span-1">
                 <div class="acc">
                   <div class="acc-head">
                     <p>Lorem ipsum dolor sit amet.</p>
@@ -291,16 +303,309 @@
                   <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolore magnam, nobis consequuntur nemo cupiditate vel sit ducimus quisquam quaerat sint officia ad voluptas consectetur beatae quis illo accusamus vero odit, architecto et.</p>
                   </div>
                   </div>
-              </div>
+              </div> 
 
 
               
+            </div> -->
+                    
 
-              
+
+             <!-- Services section has started  -->
+          <section id="services">
+            <div class="container">
+              <!-- <div class="row"> -->
+              <div class="grid grid-cols-12 grid-rows-2 gap-6">
+                <!-- <div class="col-xl-3 col-md-3 col-sm-6 col-12"> -->
+                <!-- <div class="col-span-3 sm:col-span-3"> -->
+                <div class="col-span-12 md:col-span-3 row-span-2">
+                  <div class=""> 
+                    <!-- xxx -->
+                    <!-- <h2 class="text-end">Our <br> Services</h2> -->
+                    <img src="./assets/images/home/Our Service Title.png" alt="">
+                  </div>
+
+                   <!-- Rectangle box started from here  -->
+                  <!-- <div class="rec_wrapper" id="0">
+                    <div class="rectengale  d-flex align-items-center mt-3">
+                      <a class="expand_btn" role="button" data-role="not_clicked">
+                        <svg class="plus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect width="44" height="44" rx="22" fill="#FFE8E8"/>
+                          <path d="M13 22H22M31 22H22M22 22V13M22 22V31" stroke="#EE333A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          
+
+                          <svg style="display: none;"  class="minus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="44" height="44" rx="22" fill="#1d304b"/>
+                            <path d="M13 22H31" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_258_2931" x1="2.45869e-07" y1="22" x2="44" y2="22" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#182A44"/>
+                            <stop offset="1" stop-color="#3C5271"/>
+                            </linearGradient>
+                            </defs>
+                            </svg>
+                      </a>
+                        
+                      <div class="title">
+                        <h5 class="">Product Delivery Services  </h5>
+                        <p class="expandable">When customers purchase your product, we do all the picking, packing, and shipping for you, incorporating all logistics required to ensure your orders are flawlessly processed and delivered to the right transportation services. Integrated IT and cloud-based data management give us an edge in the game.</p>
+                      </div>
+                    </div>
+                  </div> -->
+                  <!-- Rectangle ended  -->
+                </div>
+
+                  <!-- <div class="col-xl-3 col-md-3 col-sm-6 col-12"> -->
+                  <div class="col-span-12 md:col-span-3 row-span-1">
+                      <!-- Rectangle box started from here  -->
+                      <div class="rec_wrapper" id="1">
+                        <div  class="rectengale  d-flex align-items-center ">
+
+                          <a class="expand_btn" role="button" data-role="clicked">
+                            <svg class="plus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <rect width="44" height="44" rx="22" fill="#FFE8E8"/>
+                              <path d="M13 22H22M31 22H22M22 22V13M22 22V31" stroke="#EE333A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                              
+    
+                              <svg   class="minus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="#1d304b"/>
+                                <path d="M13 22H31" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_258_2931" x1="2.45869e-07" y1="22" x2="44" y2="22" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#182A44"/>
+                                <stop offset="1" stop-color="#3C5271"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                          </a>
 
 
+                          <div class="title">
+                            <h5 class="shrink">Order Processing 
+                            </h5>
+                            <p class="expanded">When customers purchase your product, we do all the picking, packing, and shipping for you, incorporating all logistics required to ensure your orders are flawlessly processed and delivered to the right transportation services. Integrated IT and cloud-based data management give us an edge in the game.</p>
+                          </div>
+                        </div>
+                      </div>
+
+
+                       <!-- Rectangle box started from here  -->
+                      <div class="rec_wrapper" id="2">
+
+                          
+                        
+                      </div>
+               
+
+                      <!-- Rectangle box started from here  -->
+                      <!-- <div class="rec_wrapper" id="3" >
+                        <div class="rectengale  d-flex align-items-center ">
+
+                          <a class="expand_btn" role="button" data-role="not_clicked">
+                            <svg class="plus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <rect width="44" height="44" rx="22" fill="#FFE8E8"/>
+                              <path d="M13 22H22M31 22H22M22 22V13M22 22V31" stroke="#EE333A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                              
+    
+                              <svg style="display: none;"  class="minus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="#1d304b"/>
+                                <path d="M13 22H31" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_258_2931" x1="2.45869e-07" y1="22" x2="44" y2="22" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#182A44"/>
+                                <stop offset="1" stop-color="#3C5271"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                          </a>
+                            
+                        <div class="title">
+                          <h5 class="">Inventory Quality Control(QC)</h5>
+                        <p class="expandable">When customers purchase your product, we do all the picking, packing, and shipping for you, incorporating all logistics required to ensure your orders are flawlessly processed and delivered to the right transportation services. Integrated IT and cloud-based data management give us an edge in the game.</p>
+                        </div>
+                        </div>
+
+                      </div> -->
+
+                  </div>
+
+                  <div class="col-span-12 md:col-span-3 row-span-1">
+                    <!-- Rectangle box started from here  -->
+                      <div class="rec_wrapper" id="3">
+                        <div class="rectengale  d-flex align-items-center ">
+
+                          <a class="expand_btn" role="button" data-role="not_clicked">
+                            <svg class="plus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <rect width="44" height="44" rx="22" fill="#FFE8E8"/>
+                              <path d="M13 22H22M31 22H22M22 22V13M22 22V31" stroke="#EE333A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              </svg>
+                              
+    
+                              <svg style="display: none;"  class="minus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <rect width="44" height="44" rx="22" fill="#1d304b"/>
+                                <path d="M13 22H31" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <defs>
+                                <linearGradient id="paint0_linear_258_2931" x1="2.45869e-07" y1="22" x2="44" y2="22" gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#182A44"/>
+                                <stop offset="1" stop-color="#3C5271"/>
+                                </linearGradient>
+                                </defs>
+                                </svg>
+                          </a>
+                            
+                        <div class="title">
+                          <h5 class="">Warehouse Management  </h5>
+                        <p class="expandable">When customers purchase your product, we do all the picking, packing, and shipping for you, incorporating all logistics required to ensure your orders are flawlessly processed and delivered to the right transportation services. Integrated IT and cloud-based data management give us an edge in the game.</p>
+                        </div>
+                        </div>
+                      </div>
+
+
+
+
+
+                                            <!-- Rectangle box started from here  -->
+                                            <div class="rec_wrapper" id="4">
+                                              <div class="rectengale  d-flex align-items-center ">
+
+                                                <a class="expand_btn" role="button" data-role="not_clicked">
+                                                  <svg class="plus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                    <rect width="44" height="44" rx="22" fill="#FFE8E8"/>
+                                                    <path d="M13 22H22M31 22H22M22 22V13M22 22V31" stroke="#EE333A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                                    
+                          
+                                                    <svg style="display: none;"  class="minus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                      <rect width="44" height="44" rx="22" fill="#1d304b"/>
+                                                      <path d="M13 22H31" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                                      <defs>
+                                                      <linearGradient id="paint0_linear_258_2931" x1="2.45869e-07" y1="22" x2="44" y2="22" gradientUnits="userSpaceOnUse">
+                                                      <stop stop-color="#182A44"/>
+                                                      <stop offset="1" stop-color="#3C5271"/>
+                                                      </linearGradient>
+                                                      </defs>
+                                                      </svg>
+                                                </a>
+
+
+                                              <div class="title">
+                                                <h5 class="">Customer Service </h5>
+                                              <p class="expandable">When customers purchase your product, we do all the picking, packing, and shipping for you, incorporating all logistics required to ensure your orders are flawlessly processed and delivered to the right transportation services. Integrated IT and cloud-based data management give us an edge in the game.</p>
+                                              </div>
+                                              </div>
+
+                                            </div>
+
+                    <!-- Rectangle box started from here  -->
+                    <!-- <div class="rec_wrapper" id="6">
+                      <div class="rectengale  d-flex align-items-center ">
+
+                        <a class="expand_btn" role="button" data-role="not_clicked">
+                          <svg class="plus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="44" height="44" rx="22" fill="#FFE8E8"/>
+                            <path d="M13 22H22M31 22H22M22 22V13M22 22V31" stroke="#EE333A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                            
+  
+                            <svg style="display: none;"  class="minus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                              <rect width="44" height="44" rx="22" fill="#1d304b"/>
+                              <path d="M13 22H31" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                              <defs>
+                              <linearGradient id="paint0_linear_258_2931" x1="2.45869e-07" y1="22" x2="44" y2="22" gradientUnits="userSpaceOnUse">
+                              <stop stop-color="#182A44"/>
+                              <stop offset="1" stop-color="#3C5271"/>
+                              </linearGradient>
+                              </defs>
+                              </svg>
+                        </a>
+                          
+                      <div class="title">
+                        <h5 class="">Inventory Audit </h5>
+                      <p class="expandable">When customers purchase your product, we do all the picking, packing, and shipping for you, incorporating all logistics required to ensure your orders are flawlessly processed and delivered to the right transportation services. Integrated IT and cloud-based data management give us an edge in the game.</p>
+                      </div>
+                      </div>
+                    </div> -->
+
+
+                </div>
+
+
+                <div class="col-span-12 md:col-span-3 row-span-1">
+                  <!-- Rectangle box started from here  -->
+                  <div class="rec_wrapper" id="5">
+                    <div class="rectengale  d-flex align-items-center ">
+                      <a class="expand_btn" role="button" data-role="not_clicked">
+                        <svg class="plus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect width="44" height="44" rx="22" fill="#FFE8E8"/>
+                          <path d="M13 22H22M31 22H22M22 22V13M22 22V31" stroke="#EE333A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          
+
+                          <svg style="display: none;"  class="minus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="44" height="44" rx="22" fill="#1d304b"/>
+                            <path d="M13 22H31" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_258_2931" x1="2.45869e-07" y1="22" x2="44" y2="22" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#182A44"/>
+                            <stop offset="1" stop-color="#3C5271"/>
+                            </linearGradient>
+                            </defs>
+                            </svg>
+                      </a>
+                    <div class="title">
+                      <h5 class="">Marketplace Solutions </h5>
+                       <p class="expandable">When customers purchase your product, we do all the picking, packing, and shipping for you, incorporating all logistics required to ensure your orders are flawlessly processed and delivered to the right transportation services. Integrated IT and cloud-based data management give us an edge in the game.</p>
+                    </div>
+                    </div>
+                  </div>
+
+
+
+                     <!-- Rectangle box started from here  -->
+
+                  <div class="rec_wrapper" id="6">
+                    <div class="rectengale  d-flex align-items-center ">
+
+                      <a class="expand_btn" role="button" data-role="not_clicked">
+                        <svg class="plus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <rect width="44" height="44" rx="22" fill="#FFE8E8"/>
+                          <path d="M13 22H22M31 22H22M22 22V13M22 22V31" stroke="#EE333A" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                          </svg>
+                          
+
+                          <svg style="display: none;"  class="minus_svg" width="44" height="44" viewBox="0 0 44 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="44" height="44" rx="22" fill="#1d304b"/>
+                            <path d="M13 22H31" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <defs>
+                            <linearGradient id="paint0_linear_258_2931" x1="2.45869e-07" y1="22" x2="44" y2="22" gradientUnits="userSpaceOnUse">
+                            <stop stop-color="#182A44"/>
+                            <stop offset="1" stop-color="#3C5271"/>
+                            </linearGradient>
+                            </defs>
+                            </svg>
+                      </a>
+                          
+                      <div class="title">
+                        <h5 class="">Return Inventory Management </h5>
+                      <p class="expandable">When customers purchase your product, we do all the picking, packing, and shipping for you, incorporating all logistics required to ensure your orders are flawlessly processed and delivered to the right transportation services. Integrated IT and cloud-based data management give us an edge in the game.</p>
+                      </div>
+                    </div>
+
+                  </div>
+
+
+
+              </div>
+
+
+              </div>
             </div>
+        </section>
 
+       <!-- Services section has ended  -->
 
           </div>
 
@@ -435,35 +740,129 @@
         <div class="container">
           <div class="grid grid-cols-1 md:grid-cols-2 py-10 md:py-16 gap-6">
            <div>
-            <div class="iso-nav">
-              <h3 class="font-mulish font-extrabold text-[26px] md:text-[40px] leading-[34px] md:leading-[48px] text-center md:text-left text-primary mb-6 md:mb-12">Warehouse Location Over the World</h3>
-              <ul class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-6 md:mb-12 portfolio-menu ">
-          
-                <li class="border list border-[#2A9D8F] px-9 py-2 tracking-[.64px] rounded-[5px] font-poppins font-bold text-base leading-6 text-success flex justify-center items-center active" data-filter="usa">USA</li>
-                <li class="border list border-[#2A9D8F] px-9 py-2 tracking-[.64px] rounded-[5px] font-poppins font-bold text-base leading-6 text-success flex justify-center items-center" data-filter="europe">EUROPE</li>
-                <li class="border list border-[#2A9D8F] px-9 py-2 tracking-[.64px] rounded-[5px] font-poppins font-bold text-base leading-6 text-success flex justify-center items-center" data-filter="africa">AFRICA</li>
-                <li class="border list border-[#2A9D8F] px-9 py-2 tracking-[.64px] rounded-[5px] font-poppins font-bold text-base leading-6 text-success flex justify-center items-center" data-filter="asia">ASIA</li>
-                
-              </ul>
+             <h3 class="font-mulish font-extrabold text-[26px] md:text-[40px] leading-[34px] md:leading-[48px] text-center md:text-left text-primary mb-6 md:mb-12">Warehouse Location Over the World</h3>
+          <div>
+            <ul class="tabs grid grid-cols-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-4 gap-4 mb-6 md:mb-12 portfolio-menu ">
+              <li class="border list border-[#2A9D8F] px-9 py-2 tracking-[.64px] rounded-[5px] font-poppins font-bold text-base leading-6 text-success flex justify-center items-center tab-link current" data-tab="tab-1">USA</li>
+              <li class="border list border-[#2A9D8F] px-9 py-2 tracking-[.64px] rounded-[5px] font-poppins font-bold text-base leading-6 text-success flex justify-center items-center tab-link" data-tab="tab-2">EUROPE</li>
+              <li class="border list border-[#2A9D8F] px-9 py-2 tracking-[.64px] rounded-[5px] font-poppins font-bold text-base leading-6 text-success flex justify-center items-center tab-link" data-tab="tab-3">AFRICA</li>
+              <li class="border list border-[#2A9D8F] px-9 py-2 tracking-[.64px] rounded-[5px] font-poppins font-bold text-base leading-6 text-success flex justify-center items-center tab-link" data-tab="tab-4">ASIA</li>
+            </ul>
+            <div>
+              <div id="tab-1" class="location-header 
+              font-poppins font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] text-center md:text-left tracking-[.64px] uppercase mb-6 md:mb-12 tab-content current">United States of America</div>
+              <div id="tab-2" class="location-header 
+              font-poppins font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] text-center md:text-left tracking-[.64px] uppercase mb-6 md:mb-12 tab-content">EUROPEAN UNION</div>
+              <div id="tab-3" class="location-header 
+              font-poppins font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] text-center md:text-left tracking-[.64px] uppercase mb-6 md:mb-12 tab-content">Africa</div>
+              <div id="tab-4" class="location-header 
+              font-poppins font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] text-center md:text-left tracking-[.64px] uppercase mb-6 md:mb-12 tab-content">Asia</div>
+
+
+
+            
+
             </div>
-             
-             <div class="main-iso portfolio-items">
-              <h1 class="location-header item usa
-              font-poppins font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] text-center md:text-left tracking-[.64px] uppercase mb-6 md:mb-12">United States of America</h1>
-              <h1 class="location-header  item europe
-              font-poppins font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] text-center md:text-left tracking-[.64px] uppercase mb-6 md:mb-12"> European Union</h1>
-              <h1 class="location-header item africa
-              font-poppins font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] text-center md:text-left tracking-[.64px] uppercase mb-6 md:mb-12">Africa</h1>
-              <h1 class="location-header item asia
-              font-poppins font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] text-center md:text-left tracking-[.64px] uppercase mb-6 md:mb-12">Asia</h1>
-             </div>
-             
-           
+          </div>
+
            </div>
+           
 
                 <div class="main-iso portfolio-items">
+                  <div id="tab-1" class="location-header 
+                  font-poppins font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] text-center md:text-left tracking-[.64px] uppercase mb-6 md:mb-12 tab-content current">
+                    <div class="mb-5 md:mb-12">
+                      <img class="w-full h-[178px] md:h-[402px]" src="./assets/images/location/usa.png" alt="">
+                     </div>
+                     <div class="flex flex-col md:flex-row  items-center space-y-[11px] md:space-y-0  md:gap-6 ">
+                      <div class="flex gap-[5px] mb-3 md:mb-0">
+                        <i class="ph-check text-white bg-[#3B2D60] w-5 h-5 flex items-center justify-center rounded-full"></i>
+                        <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center">   tab1 Salt Lake City, UT</h6>
+                      </div>
+                      <div class="flex gap-[5px] mb-3 md:mb-0">
+                        <i class="ph-check text-white bg-[#3B2D60] w-5 h-5 flex items-center justify-center rounded-full"></i>
+                        <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center">Salt Lake City, UT</h6>
+                      </div>
+                      <div class="flex gap-[5px] mb-3 md:mb-0 ">
+                        <i class="ph-check text-white bg-[#3B2D60] w-5 h-5 flex items-center justify-center rounded-full"></i>
+                        <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center">Knoxville, TN </h6>
+                      </div>
+                     </div>
+                  </div>
+                  <div id="tab-2" class="location-header 
+                  font-poppins font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] text-center md:text-left tracking-[.64px] uppercase mb-6 md:mb-12 tab-content">
+                  
+                  <div class="item usa">
+                    <div class="mb-5 md:mb-12">
+                      <img class="w-full h-[178px] md:h-[402px]" src="./assets/images/location/usa.png" alt="">
+                     </div>
+     
+                     <div class="flex flex-col md:flex-row  items-center space-y-[11px] md:space-y-0  md:gap-6 ">
+                      <div class="flex gap-[5px] mb-3 md:mb-0">
+                        <i class="ph-check text-white bg-[#3B2D60] w-5 h-5 flex items-center justify-center rounded-full"></i>
+                        <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center"> tab 2 Salt Lake City, UT</h6>
+                      </div>
+                      <div class="flex gap-[5px] mb-3 md:mb-0">
+                        <i class="ph-check text-white bg-[#3B2D60] w-5 h-5 flex items-center justify-center rounded-full"></i>
+                        <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center">Salt Lake City, UT</h6>
+                      </div>
+                      <div class="flex gap-[5px] mb-3 md:mb-0 ">
+                        <i class="ph-check text-white bg-[#3B2D60] w-5 h-5 flex items-center justify-center rounded-full"></i>
+                        <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center">Knoxville, TN </h6>
+                      </div>
+                     </div>
+                   </div> 
+                </div>
+                  <div id="tab-3" class="location-header 
+                  font-poppins font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] text-center md:text-left tracking-[.64px] uppercase mb-6 md:mb-12 tab-content">
+                  <div class="item usa">
+                    <div class="mb-5 md:mb-12">
+                      <img class="w-full h-[178px] md:h-[402px]" src="./assets/images/location/usa.png" alt="">
+                     </div>
+     
+                     <div class="flex flex-col md:flex-row  items-center space-y-[11px] md:space-y-0  md:gap-6 ">
+                      <div class="flex gap-[5px] mb-3 md:mb-0">
+                        <i class="ph-check text-white bg-[#3B2D60] w-5 h-5 flex items-center justify-center rounded-full"></i>
+                        <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center"> tab 3 Salt Lake City, UT</h6>
+                      </div>
+                      <div class="flex gap-[5px] mb-3 md:mb-0">
+                        <i class="ph-check text-white bg-[#3B2D60] w-5 h-5 flex items-center justify-center rounded-full"></i>
+                        <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center">Salt Lake City, UT</h6>
+                      </div>
+                      <div class="flex gap-[5px] mb-3 md:mb-0 ">
+                        <i class="ph-check text-white bg-[#3B2D60] w-5 h-5 flex items-center justify-center rounded-full"></i>
+                        <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center">Knoxville, TN </h6>
+                      </div>
+                     </div>
+                   </div> 
+                </div>
+                  <div id="tab-4" class="location-header 
+                  font-poppins font-bold text-[32px] md:text-[64px] leading-[48px] md:leading-[96px] text-center md:text-left tracking-[.64px] uppercase mb-6 md:mb-12 tab-content">
+                  <div class="item usa">
+                    <div class="mb-5 md:mb-12">
+                      <img class="w-full h-[178px] md:h-[402px]" src="./assets/images/location/usa.png" alt="">
+                     </div>
+     
+                     <div class="flex flex-col md:flex-row  items-center space-y-[11px] md:space-y-0  md:gap-6 ">
+                      <div class="flex gap-[5px] mb-3 md:mb-0">
+                        <i class="ph-check text-white bg-[#3B2D60] w-5 h-5 flex items-center justify-center rounded-full"></i>
+                        <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center"> tab 4 Salt Lake City, UT</h6>
+                      </div>
+                      <div class="flex gap-[5px] mb-3 md:mb-0">
+                        <i class="ph-check text-white bg-[#3B2D60] w-5 h-5 flex items-center justify-center rounded-full"></i>
+                        <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center">Salt Lake City, UT</h6>
+                      </div>
+                      <div class="flex gap-[5px] mb-3 md:mb-0 ">
+                        <i class="ph-check text-white bg-[#3B2D60] w-5 h-5 flex items-center justify-center rounded-full"></i>
+                        <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center">Knoxville, TN </h6>
+                      </div>
+                     </div>
+                   </div> 
+                </div>
+
+
                 
-                    <div class="item usa">
+                    <!-- <div class="item usa">
                      <div class="mb-5 md:mb-12">
                        <img class="w-full h-[178px] md:h-[402px]" src="./assets/images/location/usa.png" alt="">
                       </div>
@@ -482,12 +881,12 @@
                          <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center">Knoxville, TN </h6>
                        </div>
                       </div>
-                    </div>
+                    </div>   -->
                
      
      
               
-                 <div class="item europe">
+                 <!-- <div class="item europe">
                    <div class="mb-5 md:mb-12">
                      <img class="w-full h-[178px] md:h-[402px]" src="./assets/images/location/europe.png" alt="">
                     </div>
@@ -507,11 +906,11 @@
                      </div>
                     </div>
                  </div>
-          
+           -->
      
      
             
-             <div class="item africa">
+             <!-- <div class="item africa">
                <div class="mb-5 md:mb-12">
                  <img class="w-full h-[178px] md:h-[402px]" src="./assets/images/location/africa.png" alt="">
                 </div>
@@ -530,12 +929,12 @@
                    <h6 class="font-poppins font-semibold text-primary text-base leading-[24px] text-center">Knoxville, TN </h6>
                  </div>
                 </div>
-             </div>
+             </div> -->
        
      
      
    
-        <div class="item asia">
+        <!-- <div class="item asia">
          <div class="mb-5 md:mb-12">
            <img class="w-full h-[178px] md:h-[402px]" src="./assets/images/location/asia.png" alt="">
           </div>
@@ -555,7 +954,7 @@
            </div>
           </div>
         </div>
-    
+     -->
      
                 </div>
 
@@ -611,7 +1010,7 @@
 
             <div class="space-y-6">
               <img class="w-max mx-auto lg:mx-0 " src="./assets/images/logo/logo.png" alt="">
-              <p class="font-mulish font-normal text-primary text-center md:text-left text-sm md:text-base leading-5">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam. Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam</p>
+              <p class="font-mulish font-normal text-[#888B96] text-center md:text-left text-sm md:text-base leading-5">Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam. Lorem ipsum dolor sit amet consectetur adipiscing elit aliquam</p>
               <div class="flex justify-center items-center gap-[22px] w-max lg:mx-0 mx-auto">
               <img class="w-5 h-5" src="./assets/images/social/Facebook.png" alt="">
               <img class="w-5 h-5" src="./assets/images/social/twitter.png" alt="">
@@ -623,22 +1022,22 @@
             </div>
             <div class=" flex flex-col items-center md:items-start">
               <h3 class="font-mulish font-bold text-base leading-[22px] text-primary text-center md:text-left mb-5 md:mb-10">Services</h3>
-              <a href="#" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente  text-primary mb-3 md:mb-[18px]">Order Processing</a>
-              <a href="#" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente  text-primary mb-3 md:mb-[18px]">Inventory Quality Control (QC)</a>
-              <a href="#" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente  text-primary mb-3 md:mb-[18px]">Inventory Audit</a>
-              <a href="#" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente  text-primary mb-3 md:mb-[18px]">Marketing & Promotion</a>
-              <a href="#" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente  text-primary mb-3 md:mb-[18px]">Return Inventory Management</a>
-              <a href="#" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente  text-primary mb-3 md:mb-[18px]">Marketplace Solutions</a>
+              <a href="#" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]">Order Processing</a>
+              <a href="#" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]">Inventory Quality Control (QC)</a>
+              <a href="#" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]">Inventory Audit</a>
+              <a href="#" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]">Marketing & Promotion</a>
+              <a href="#" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]">Return Inventory Management</a>
+              <a href="#" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente text-[#888B96] mb-3 md:mb-[18px]">Marketplace Solutions</a>
           </div>
 
 
           <div class=" flex flex-col items-center md:items-start">
             <h3 class="font-mulish font-bold text-base leading-[22px] text-primary text-center md:text-left mb-5 md:mb-10">Company</h3>
-            <a href="./pages/about.html list" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente  text-primary mb-3 md:mb-[18px]">About</a>
-            <a href="./pages/contact.html" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente  text-primary mb-3 md:mb-[18px]">Contact us</a>
-            <a href="./pages/career.html" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente  text-primary mb-3 md:mb-[18px]">Careers</a>
+            <a href="./pages/about.html" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente   text-[#888B96] mb-3 md:mb-[18px]">About</a>
+            <a href="./pages/contact.html" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente   text-[#888B96] mb-3 md:mb-[18px]">Contact us</a>
+            <a href="./pages/career.html" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente   text-[#888B96] mb-3 md:mb-[18px]">Careers</a>
           
-            <a href="./pages/faq.html" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente  text-primary mb-3 md:mb-[18px]">F&Q</a>
+            <a href="./pages/faq.html" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente   text-[#888B96] mb-3 md:mb-[18px]">F&Q</a>
            
         </div>
           
@@ -649,8 +1048,8 @@
 
           <div class="flex flex-col md:flex-row justify-center items-center gap-[6px] mb-3 md:mb-[18px]">
 
-          <i class="ph-envelope-simple text-xl w-max mx-auto lg:mx-0"></i> 
-          <a href="mailto:contact@company.com" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente flex justify-center items-center  text-primary ">
+          <i class="ph-envelope-simple  text-xl w-max mx-auto lg:mx-0"></i> 
+          <a href="mailto:contact@company.com" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente flex justify-center items-center  text-[#888B96]">
           contact@company.com
          </a>
           </div>
@@ -660,7 +1059,7 @@
           <div class="flex flex-col md:flex-row justify-center items-center gap-[6px] mb-3 md:mb-[18px]">
 
           <i class="ph-phone text-xl w-max mx-auto lg:mx-0"></i> 
-          <a href="tel:(414) 687 - 5892" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente flex justify-center items-center  text-primary ">
+          <a href="tel:(414) 687 - 5892" class="font-mulish font-normal text-sm md:text-base leading-5 text-cente flex justify-center items-center  text-[#888B96] ">
             (414) 687 - 5892
          </a>
           </div>
@@ -668,7 +1067,7 @@
           <div class="flex flex-col md:flex-row justify-center items-center gap-[6px] mb-3 md:mb-[18px]">
 
             <i class="ph-map-pin text-xl w-max mx-auto lg:mx-0"></i> 
-            <p class="font-mulish font-normal text-sm md:text-base leading-5 text-cente flex justify-center items-center  text-primary ">
+            <p class="font-mulish font-normal text-sm md:text-base leading-5 text-cente flex justify-center items-center  text-[#888B96] ">
               794 Mcallister St <br>
               Knoxville, TN
            </p>
@@ -681,11 +1080,13 @@
 
           </div>
            <div class="flex flex-col md:flex-row justify-center md:justify-between items-start py-5 md:py-10">
-            <div class="w-max mx-auto md:mx-0 font-mulish font-normal text-sm md:text-[18px] leading-[30px] text-primary"><p>Copyright &copy; 2022 Pickme</p></div>
-               <div class="flex flex-wrap font-mulish font-normal text-sm md:text-[18px] leading-[30px] text-center text-primary gap-1 mt-2 md:mt-0">
-                <a href="./pages/legal.html" class="">All Rights Reserved | </a>
-                <a href="./pages/legal.html" class="">Terms and Conditions |  </a>
-                <a href="./pages/legal.html" class="">Privacy Policy </a>
+            <div class="w-max mx-auto md:mx-0 font-mulish font-normal text-sm md:text-lg leading-[30px] text-[#888B96]"><p>Copyright &copy; 2022 Pickme</p></div>
+               <div class="flex flex-wrap divide-x-2 font-mulish font-normal text-sm md:text-lg text-center text-[#888B96] gap-2 mt-2 md:mt-0">
+                <div class="px-2"><a href="./pages/legal.html" class="rightBorde">All Rights Reserved</a></div>
+                <div class="px-2"><a href="./pages/legal.html" class=" border-b border-[#888B96]">Terms and Conditions</a></div>
+                <div class="px-2"><a href="./pages/legal.html" class=" border-b border-[#888B96]">Privacy Policy</a></div>
+                
+                
 
                </div>
            </div>
@@ -696,42 +1097,13 @@
 
 
     </main>
-    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js"></script> -->
-     <script src="https://unpkg.com/phosphor-icons"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-    <script src="./assets/js/custom/common.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+     <script src="https://unpkg.com/phosphor-icons"></script>
     <script src="./assets/plugins/slick/slick.1.8.1.js"></script>
-
-    <script>
-      // init Isotope
-          var $grid = $('.portfolio-items').isotope({
-              // options
-          });
-          // filter items on button click
-          $('.portfolio-menu').on('click', 'li', function () {
-              var filterValue = $(this).attr('data-filter');
-              $grid.isotope({ filter: filterValue });
-          });
-
-          // filter items on button active
-          $('.portfolio-menu').on('click', 'li', function () {
-             $(this).activeClass('active').siblings.removeClass('active');
-          });
-
-          // filter items on button active
-          // $('.portfolio-menu').on('click', 'li', function () {
-          //    $(this).activeClass('active').siblings.removeClass('active');
-          // $('')
-          // });
+    <script src="./assets/plugins/AlpineJs/alpine.js"></script>
+    <script src="./assets/js/custom/common.js"></script>
 
 
-          //   $('.portfolio-menu').click(function () {
-            //   $('.portfolio-menu').on('click', 'li', function () {
-            //       //ACTIVE CLASS
-            //       $('.portfolio-menu ul li').removeClass('active');
-            //       $(this).addClass('active');
-            // })
-  </script>
   </body>
 </html>
