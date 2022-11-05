@@ -95,30 +95,9 @@ $(document).ready(function () {
 
   // brand logos ended
 
-  // location started
-  $(".main-iso").isotope({
-    itemSelector: ".item",
-    layoutMode: "fitRows",
-  });
-
-  $(".iso-nav ul li").click(function () {
-    //ACTIVE CLASS
-    $(".iso-nav ul li").removeClass("active");
-    $(this).addClass("active");
-
-    var selector = $(this).attr("data-filter");
-    $(".main-iso").isotope({
-      filter: selector,
-    });
-    return false;
-  });
-
-  // location ended
-
   // tab
   $("ul.tabs li").click(function () {
     var tab_id = $(this).attr("data-tab");
-
     $("ul.tabs li").removeClass("current");
     $(".tab-content").removeClass("current");
 
@@ -237,14 +216,3 @@ $(document).on("click", ".expand_btn", function () {
     // Animated function is here ended ------------------------------------------------------------------------------------------@@@@@@@@@@@@@@@@
   }
 });
-
-// $(document).on('click','.something',function(){
-//   $is_expanded = $(".expanded").text("");
-//   if($is_expanded == ""){
-//     $("#").find(".rectengale").addClass('horizontal_mode');
-//     $moveable_content =  $("#0").html();
-//     $("#3").find(".rectengale").remove();
-//     $("#2").append($moveable_content);
-//   }
-// });
-// services ended
