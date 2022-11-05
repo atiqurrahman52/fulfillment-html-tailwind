@@ -159,7 +159,8 @@
 
 /* Contact  */
 .contact-bg {
-  background-image: url("../images/contact/contact.png");
+  /* background-image: url("../images/contact/contact.png"); */
+  background-image: url("./assets/images/contact/contact.png");
 }
 .bg-color {
   background: radial-gradient(
@@ -249,7 +250,8 @@ line-height: 27px; */
 
 /* About started */
 .about-bg {
-  background-image: url("../images/about/about-bg.png");
+  /* background-image: url("../images/about/about-bg.png"); */
+  background-image: url("./assets/images/about/about-bg.png");
 }
 .about-banner-title {
   position: absolute;
@@ -266,6 +268,9 @@ line-height: 27px; */
   text-align: center;
 
   color: #ffffff;
+}
+.count-bg {
+  background-image: url("./assets/images/about/count-bg.png");
 }
 /* About ended */
 
@@ -492,5 +497,3 @@ line-height: 27px; */
   height: 20px;
 }
 /* footer ended  */
-
-
