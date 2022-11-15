@@ -160,7 +160,8 @@
 /* Contact  */
 .contact-bg {
   /* background-image: url("../images/contact/contact.png"); */
-  background-image: url("./assets/images/contact/contact.png");
+  background-image: url("./../assets/images/contact/contact.png");
+  /* background-image: url("./../assets/images/about/about-bg.png"); */
 }
 .bg-color {
   background: radial-gradient(
@@ -251,7 +252,7 @@ line-height: 27px; */
 
 /* About started */
 .about-bg {
-  /* background-image: url("../images/about/about-bg.png"); */
+ 
   background-image: url("./../assets/images/about/about-bg.png");
 }
 .about-banner-title {
@@ -270,14 +271,14 @@ line-height: 27px; */
 
   color: #ffffff;
 }
-.count-bg {
-  background-image: url("./assets/images/about/count-bg.png");
-}
+
 /* About ended */
 
 /* About Count started  */
 .count-bg {
-  background-image: url("../images/about/count-bg.png");
+  /* background-image: url("../images/about/count-bg.png"); */
+  background-image: url("./../assets/images/about/count-bg.png");
+  
 }
 /* About Count ended  */
 
