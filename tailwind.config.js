@@ -34,6 +34,7 @@ module.exports = {
         success: "#2A9D8F",
         accent: "#ECF1F4",
         light: "#FAFCFE",
+        gray: "#B0B2B9",
       },
       backgroundImage: {
         "contact-bg": "url('/assets/images/contact/contact.png')",
