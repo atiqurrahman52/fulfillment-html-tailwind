@@ -1,3 +1,4 @@
+
 const button = document.querySelector("#menu-button");
 const menu = document.querySelector("#menu");
 
@@ -88,6 +89,15 @@ $(document).ready(function () {
     $(this).addClass("current");
     $("#" + tab_id).addClass("current");
   });
+
+  // navbar sticky 
+  $(window).scroll(function(){
+    if($(this).scrollTop() > 100){
+        $('.nav').addClass('sticky')
+    } else{
+        $('.nav').removeClass('sticky')
+    }
+});
 });
 
 // services started

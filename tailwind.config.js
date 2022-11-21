@@ -3,7 +3,9 @@ module.exports = {
   content: ["*", "./pages/*html"],
   theme: {
     screens: {
-      sm: "640px",
+      xs: "320px",
+      sm: "375px",
+      lsm: "425px",
       md: "768px",
       lg: "1024px",
       xl: "1280px",

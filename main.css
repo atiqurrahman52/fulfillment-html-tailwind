@@ -252,7 +252,6 @@ line-height: 27px; */
 
 /* About started */
 .about-bg {
- 
   background-image: url("./../assets/images/about/about-bg.png");
 }
 .about-banner-title {
@@ -278,7 +277,6 @@ line-height: 27px; */
 .count-bg {
   /* background-image: url("../images/about/count-bg.png"); */
   background-image: url("./../assets/images/about/count-bg.png");
-  
 }
 /* About Count ended  */
 
