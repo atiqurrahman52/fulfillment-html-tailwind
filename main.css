@@ -30,6 +30,7 @@
 /* Active page started  */
 .activePage {
   position: relative;
+  color: #3b2d60;
 }
 
 @media only screen and (min-width: 771px) {
@@ -38,9 +39,6 @@
     position: absolute;
     bottom: 10px;
     left: 50%;
-    /* color: #3B2D60; */
-    color: red;
-
     transform: translateX(-50%);
     border-bottom: 2px solid #e78dd2;
     width: 48px;
@@ -260,14 +258,12 @@ line-height: 27px; */
   height: 288px;
   left: calc(50% - 868px / 2);
   top: 266px;
-
   font-family: "Poppins";
   font-style: normal;
   font-weight: 700;
   font-size: 64px;
   line-height: 96px;
   text-align: center;
-
   color: #ffffff;
 }
 
@@ -660,3 +656,15 @@ line-height: 27px; */
 } */
 
 /* custom scrollbar end */
+
+/* new loader started  */
+#preloader {
+  /* background: url("./assets/images/preloader/two.gif") no-repeat center; */
+  background: url("https://i.pinimg.com/originals/7f/ea/55/7fea550d2455d9cd93299698f7302247.gif");
+  background-size: 15%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+/* new loader ended */
