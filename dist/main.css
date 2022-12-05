@@ -572,6 +572,10 @@ video {
   }
 }
 
+.pointer-events-none{
+  pointer-events: none;
+}
+
 .fixed{
   position: fixed;
 }
@@ -614,6 +618,14 @@ video {
 
 .bottom-0{
   bottom: 0px;
+}
+
+.top-1\/2{
+  top: 50%;
+}
+
+.right-3{
+  right: 0.75rem;
 }
 
 .z-50{
@@ -763,6 +775,14 @@ video {
   margin-bottom: 6px;
 }
 
+.mt-10{
+  margin-top: 2.5rem;
+}
+
+.mt-0{
+  margin-top: 0px;
+}
+
 .block{
   display: block;
 }
@@ -867,6 +887,10 @@ video {
   height: 330px;
 }
 
+.h-20{
+  height: 5rem;
+}
+
 .max-h-\[592px\]{
   max-height: 592px;
 }
@@ -964,8 +988,21 @@ video {
   max-width: 804px;
 }
 
+.max-w-5xl{
+  max-width: 64rem;
+}
+
+.max-w-\[200px\]{
+  max-width: 200px;
+}
+
 .shrink{
   flex-shrink: 1;
+}
+
+.-translate-y-1\/2{
+  --tw-translate-y: -50%;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .transform{
@@ -974,6 +1011,12 @@ video {
 
 .cursor-pointer{
   cursor: pointer;
+}
+
+.appearance-none{
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
 }
 
 .grid-cols-1{
@@ -1143,6 +1186,12 @@ video {
   --tw-space-y-reverse: 0;
   margin-top: calc(2.5rem * calc(1 - var(--tw-space-y-reverse)));
   margin-bottom: calc(2.5rem * var(--tw-space-y-reverse));
+}
+
+.space-y-1 > :not([hidden]) ~ :not([hidden]){
+  --tw-space-y-reverse: 0;
+  margin-top: calc(0.25rem * calc(1 - var(--tw-space-y-reverse)));
+  margin-bottom: calc(0.25rem * var(--tw-space-y-reverse));
 }
 
 .divide-x > :not([hidden]) ~ :not([hidden]){
@@ -1530,6 +1579,11 @@ video {
   padding-right: 15px;
 }
 
+.py-\[1px\]{
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
 .pt-4{
   padding-top: 1rem;
 }
@@ -1572,6 +1626,14 @@ video {
 
 .pb-16{
   padding-bottom: 4rem;
+}
+
+.pt-20{
+  padding-top: 5rem;
+}
+
+.pt-16{
+  padding-top: 4rem;
 }
 
 .text-center{
@@ -1789,6 +1851,10 @@ video {
   letter-spacing: .04em;
 }
 
+.tracking-\[0\.0em\]{
+  letter-spacing: 0.0em;
+}
+
 .text-\[\#afb8c4\]{
   --tw-text-opacity: 1;
   color: rgb(175 184 196 / var(--tw-text-opacity));
@@ -1962,6 +2028,11 @@ video {
   color: rgb(167 175 186 / var(--tw-text-opacity));
 }
 
+.text-\[\#A8B1BC\]{
+  --tw-text-opacity: 1;
+  color: rgb(168 177 188 / var(--tw-text-opacity));
+}
+
 .underline{
   text-decoration-line: underline;
 }
@@ -2015,6 +2086,10 @@ video {
 .outline-none{
   outline: 2px solid transparent;
   outline-offset: 2px;
+}
+
+.outline-0{
+  outline-width: 0px;
 }
 
 .blur{
@@ -2995,6 +3070,10 @@ line-height: 27px; */
     height: 200px;
   }
 
+  .md\:h-3{
+    height: 0.75rem;
+  }
+
   .md\:w-\[175px\]{
     width: 175px;
   }
@@ -3044,6 +3123,10 @@ line-height: 27px; */
     width: 200px;
   }
 
+  .md\:w-3{
+    width: 0.75rem;
+  }
+
   .md\:max-w-\[550px\]{
     max-width: 550px;
   }
@@ -3062,6 +3145,14 @@ line-height: 27px; */
 
   .md\:grid-cols-12{
     grid-template-columns: repeat(12, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-10{
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+  }
+
+  .md\:grid-cols-7{
+    grid-template-columns: repeat(7, minmax(0, 1fr));
   }
 
   .md\:flex-row{
@@ -3383,6 +3474,14 @@ line-height: 27px; */
     grid-column: span 3 / span 3;
   }
 
+  .lg\:col-span-6{
+    grid-column: span 6 / span 6;
+  }
+
+  .lg\:col-span-4{
+    grid-column: span 4 / span 4;
+  }
+
   .lg\:mx-0{
     margin-left: 0px;
     margin-right: 0px;
@@ -3470,6 +3569,14 @@ line-height: 27px; */
 }
 
 @media (min-width: 1280px){
+  .xl\:col-span-8{
+    grid-column: span 8 / span 8;
+  }
+
+  .xl\:col-span-4{
+    grid-column: span 4 / span 4;
+  }
+
   .xl\:mb-3{
     margin-bottom: 0.75rem;
   }
@@ -3484,6 +3591,14 @@ line-height: 27px; */
 
   .xl\:h-\[390px\]{
     height: 390px;
+  }
+
+  .xl\:h-4{
+    height: 1rem;
+  }
+
+  .xl\:w-4{
+    width: 1rem;
   }
 
   .xl\:max-w-\[460px\]{
@@ -3542,6 +3657,10 @@ line-height: 27px; */
     padding-top: 1.75rem;
   }
 
+  .xl\:pt-20{
+    padding-top: 5rem;
+  }
+
   .xl\:text-left{
     text-align: left;
   }
@@ -3559,7 +3678,18 @@ line-height: 27px; */
     font-size: 190px;
   }
 
+  .xl\:text-base{
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+
   .xl\:leading-\[96px\]{
     line-height: 96px;
+  }
+}
+
+@media (min-width: 1536px){
+  .\32xl\:p-4{
+    padding: 1rem;
   }
 }

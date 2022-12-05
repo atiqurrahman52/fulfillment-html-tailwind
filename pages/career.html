@@ -252,11 +252,11 @@
       <section id="position">
         <div class="container">
           <div class="py-10 md:py-16 gap-10 md:gap-2.5">
-            <div>
+            <!-- <div>
               <h1
                 class="text-primary font-poppins font-bold text-2xl md:text-[40px] text-center md:mb-[60px] mb-10"
               >
-                Open Positions
+                Open Positions 
               </h1>
               <div class="flex flex-col md:flex-row mx-auto lg:w-max">
                 <div
@@ -297,7 +297,65 @@
                   </p>
                 </div>
               </div>
+            </div>  -->
+
+
+
+             <!-- react  -->
+
+          <div>
+            <h1 class="text-primary font-poppins font-bold text-2xl md:text-[40px] text-center md:mb-[60px] mb-10">
+              Open Positions
+            </h1>
+            <div class="grid md:grid-cols-10 md:gap-4 max-w-5xl mx-auto">
+              <div class="md:col-span-5 lg:col-span-6">
+                <div class="grid md:grid-cols-7 gap-4">
+                  <div class="relative md:col-span-3">
+                    <select class="w-full appearance-none bg-[#F7F7F7] text-[#A8B1BC] rounded-[10px] px-4 py-3 2xl:p-4 text-xs xl:text-base outline-0 transition-all duration-300">
+                      <option value="">Locations</option>
+                      <option value="0">New york</option>
+                      <option value="1">Dhaka</option>
+                      <option value="2">Berlin</option>
+                      <option value="3">New Delhi</option>
+                    </select>
+                    <img
+                      
+                      src="../assets/images/career/chevron.svg"
+                      alt="icon"
+                      class="absolute top-1/2  right-3 -translate-y-1/2 pointer-events-none w-2.5 h-2.5 md:w-3 md:h-3 xl:w-4 xl:h-4"
+                      
+                    />
+                  </div>
+    
+                  <input
+                    class="md:col-span-4 bg-[#F7F7F7] font-medium rounded-[10px] px-4 py-3 outline-0 text-xs xl:text-base"
+                    type="text"
+                    placeholder="Work type"
+                  />
+                </div>
+              </div>
+    
+              <div class="md:col-span-5 lg:col-span-4 mt-10 md:mt-0">
+                <div class="md:flex items-center gap-4 space-y-1">
+                  <p class="text-sm xl:text-base w-full bg-success py-3 rounded-[10px] max-w-[200px] mx-auto font-poppins font-medium uppercase text-white text-center cursor-pointer">
+                    Search
+                  </p>
+                  <p class="text-sm xl:text-base text-[#BEBEBE] font-poppins font-medium uppercase text-center">
+                    OR
+                  </p>
+                  <p class="text-sm xl:text-base w-full bg-[#3B2D60] py-3 rounded-[10px] max-w-[200px] mx-auto font-poppins font-medium uppercase text-white text-center cursor-pointer">
+                    View all jobs
+                  </p>
+                </div>
+              </div>
             </div>
+          </div>
+
+
+
+
+            
+
 
             <div class="py-10 md:py-20">
               <div
@@ -377,24 +435,29 @@
               </div>
             </div>
 
-            <!-- <div class="grid grid-cols-1 md:grid-cols-12 gap-x-6">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-x-6">
 
 
               <div
                 class="col-span-1 md:col-span-6 bg-white shadow-[-4px_4px_18px_rgba(34,82,155,0.1)] p-2.5 md:p-10 mb-3 md:mb-5 rounded-[10px]"
               >
-                <div class="flex justify-between">
+                <div class="flex justify-between items-center">
                   <div class="">
                     <p
                       class="text-[#AAB3BE] font-poppins font-medium text-xs md:text-sm mb-3 md:mb-5"
                     >
                       Jan 02, 2022
                     </p>
-                    <p
+                    <!-- <p
                       class="text-[#314663] font-poppins font-bold text-sm md:text-xl tracking-[-.02em] mb-3 md:mb-5"
                     >
                       Project Manager
-                    </p>
+                    </p> -->
+                    <img
+                    class="w-[20px] md:w-[30px] h-[19px] md:h-[30px]"
+                    src="../assets/images/career/location.svg"
+                    alt=""
+                  />
                     <a
                       class="text-success font-medium text-sm underline mb-3 md:mb-5"
                       href=""
@@ -406,11 +469,11 @@
                     <div
                       class="flex items-center mb-[20px] md:mb-[40px] gap-[7px] md:gap-3"
                     >
-                      <img
-                        class="w-[20px] md:w-[30px] h-[19px] md:h-[30px]"
-                        src="../assets/images/career/location.svg"
-                        alt=""
-                      />
+                    <!-- <img
+                    class="w-[20px] md:w-[30px] h-[19px] md:h-[30px]"
+                    src="../assets/images/career/location.svg"
+                    alt=""
+                  /> -->
                       <p
                         class="text-[#1F324C] font-medium text-sm md:text-[18px]"
                       >
@@ -651,7 +714,7 @@
                   </div>
                 </div>
               </div>
-            </div> -->
+            </div> 
 
             <p
               style="
@@ -662,6 +725,11 @@
               View all jobs
             </p>
           </div>
+
+
+         
+
+
         </div>
       </section>
       <!-- Position section ended  -->
@@ -685,8 +753,10 @@
               </p>
             </div>
 
-            <div class="grid xl:grid-cols-12 gap-5">
-              <div class="col-span-1 md:col-span-8 w-full h-full">
+           
+            <div class="grid grid-cols-12 gap-6">
+             
+              <div class="col-span-12 xl:col-span-8 w-full h-full">
                 <div class="">
                   <div class="accordion-container">
                     <div
@@ -819,8 +889,9 @@
                 </div>
               </div>
 
+            
               <div
-                class="col-span-1 md:col-span-4 bg-[#D8D5DF] p-5 md:p-10 rounded-[16px] w-full h-full"
+                class="col-span-12 xl:col-span-4 bg-[#D8D5DF] p-5 md:p-10 rounded-[16px] w-full h-full"
               >
                 <form action="">
                   <div class="text-center md:text-left">
@@ -830,7 +901,7 @@
                       contact us
                     </h3>
                     <h1
-                      class="text-primary font-poppins font-bold text-[32px] md:text-[40px] tracking-[-0.02em] mb-10"
+                      class="text-primary font-poppins font-bold text-[32px] md:text-[40px] tracking-[-0.02em] mb-6"
                     >
                       Send Message
                     </h1>
@@ -953,13 +1024,15 @@
                   </div>
 
                   <div
-                    class="bg-white rounded-[5px] flex flex-row justify-between items-center py-[15px] px-5 mb-10"
+                    class="bg-white rounded-[5px] flex flex-row justify-between items-start py-[15px] px-5 mb-10"
                   >
-                    <input
-                      type="text"
-                      placeholder="Enter massage"
-                      class="font-medium outline-none"
-                    />
+                    <textarea
+                      rows="3"
+                      cols=""
+                      placeholder="Enter Message"
+                      class="font-medium outline-none w-full"
+                    >
+                    </textarea>
 
                     <div class="">
                       <svg
@@ -1016,11 +1089,11 @@
                     </div>
                   </div>
 
-                  <div class="flex items-center">
+                  <div class="flex items-center mt-0">
                     <button
-                      class="text-white font-poppins font-semibold text-base leading-6 tracking-[0.04em] bg-primary px-[30px] py-2.5 rounded w-full h-full"
+                      class="text-white font-poppins font-semibold text-base leading-6 tracking-[0.04em] uppercase bg-[#3B2D60] px-[30px] py-2.5 rounded w-full h-full"
                     >
-                      See open positions
+                      Get A Query
                     </button>
                   </div>
                 </form>
