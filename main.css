@@ -410,8 +410,8 @@ line-height: 27px; */
 /* service section endedn  */
 
 #services {
-  margin-top: 203px;
-  margin-bottom: 150px;
+  /* margin-top: 203px; */
+  /* margin-bottom: 150px; */
 }
 
 .service_heading {
@@ -438,7 +438,7 @@ line-height: 27px; */
 
 .rectengale {
   position: relative;
-  max-width: 280px;
+  /* max-width: 280px; */
   width: 100%;
   background: #ffffff;
   box-shadow: 0px 4px 28px rgba(0, 0, 0, 0.1);
